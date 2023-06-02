@@ -107,6 +107,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
                     key={navItem.id}
                     to={navItem.target}
                     activeClassName="bg-white bg-opacity-50 isActive"
+                    partiallyActive={true}
                     className={classNames([
                       "group",
                       "flex flex-row items-center justify-center space-x-1  p-2 text-sm",
