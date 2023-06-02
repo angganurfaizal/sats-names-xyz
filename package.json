@@ -1,0 +1,56 @@
+{
+  "name": "sats-names",
+  "version": "1.0.0",
+  "private": true,
+  "description": "sats-names",
+  "author": "Till Hinrichs",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@headlessui/react": "^1.7.15",
+    "@tailwindcss/forms": "^0.5.3",
+    "@tailwindcss/typography": "^0.5.9",
+    "autoprefixer": "^10.4.14",
+    "classnames": "^2.3.2",
+    "formik": "^2.4.1",
+    "gatsby": "^5.10.0",
+    "gatsby-plugin-image": "^3.10.0",
+    "gatsby-plugin-layout": "^4.10.0",
+    "gatsby-plugin-manifest": "^5.10.0",
+    "gatsby-plugin-postcss": "^6.10.0",
+    "gatsby-plugin-sharp": "^5.10.0",
+    "gatsby-plugin-sitemap": "^6.10.0",
+    "gatsby-plugin-use-query-params": "^1.0.1",
+    "gatsby-source-custom-api": "^2.3.6",
+    "gatsby-source-filesystem": "^5.10.0",
+    "gatsby-transformer-sharp": "^5.10.0",
+    "postcss": "^8.4.24",
+    "postcss-import": "^15.1.0",
+    "postcss-reporter": "^7.0.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-paginate": "^8.2.0",
+    "react-use-query-param-string": "^2.0.10",
+    "react-virtualized-auto-sizer": "^1.0.19",
+    "react-window": "^1.8.9",
+    "react-window-infinite-loader": "^1.0.9",
+    "tailwindcss": "^3.3.2",
+    "tailwindcss-hyphens": "^0.1.0",
+    "usehooks-ts": "^2.9.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.2.5",
+    "@types/react": "^18.2.7",
+    "@types/react-dom": "^18.2.4",
+    "typescript": "^5.0.4"
+  }
+}
