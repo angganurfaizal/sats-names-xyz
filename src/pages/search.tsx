@@ -222,12 +222,12 @@ export default function SearchPage() {
               <div className="sm:w-2/3">{actionData.data.queryDecoded}</div>
             </div>
             <hr className="!my-4" />
-            <div className="flex flex-row flex-wrap w-full">
-              <div className="w-full pt-1 mb-2 text-xs font-bold text-gray-500 uppercase">
-                Inscriptions
-              </div>
-              {actionData.data.inscriptions &&
-                actionData.data.inscriptions.map(
+            {actionData.data.inscriptions && (
+              <div className="flex flex-row flex-wrap w-full">
+                <div className="w-full pt-1 mb-2 text-xs font-bold text-gray-500 uppercase">
+                  Inscriptions ({actionData.data.inscriptions.length})
+                </div>
+                {actionData.data.inscriptions.map(
                   (i: Omit<SatsName, "name, owner">) => (
                     <div className="w-full" key={i.inscriptionId}>
                       <div className="flex flex-col w-full sm:flex-row">
@@ -245,7 +245,8 @@ export default function SearchPage() {
                     </div>
                   )
                 )}
-            </div>
+              </div>
+            )}
           </div>
         )}
       </div>
